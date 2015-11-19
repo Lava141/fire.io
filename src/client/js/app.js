@@ -922,7 +922,7 @@ function gameLoop() {
         if (kicked) {
             if (reason !== '') {
             
-                //graph.fillText('You were kicked for reason:', screenWidth / 2, screenHeight / 2 - 20);//
+                graph.fillText('An error was made ...', screenWidth / 2, screenHeight / 2 - 20);
                 //graph.fillText(reason, screenWidth / 2, screenHeight / 2 + 20);//
             }
             else {
