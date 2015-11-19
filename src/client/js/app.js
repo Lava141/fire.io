@@ -396,7 +396,8 @@ function checkLatency() {
 }
 
 function toggleDarkMode() {
-    var LIGHT = '#f2fbff',
+    //#f2fbff//
+    var LIGHT = '#181818',
         DARK = '#181818';
     var LINELIGHT = '#000000',
         LINEDARK = '#ffffff';
@@ -909,7 +910,7 @@ function gameLoop() {
             graph.textAlign = 'center';
             graph.fillStyle = '#FFFFFF';
             graph.font = 'bold 30px sans-serif';
-            graph.fillText('Game Over!', screenWidth / 2, screenHeight / 2);
+            graph.fillText('', screenWidth / 2, screenHeight / 2);
         }
     } else {
         graph.fillStyle = '#333333';
