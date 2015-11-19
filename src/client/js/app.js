@@ -921,11 +921,12 @@ function gameLoop() {
         graph.font = 'bold 30px sans-serif';
         if (kicked) {
             if (reason !== '') {
-                graph.fillText('You were kicked for reason:', screenWidth / 2, screenHeight / 2 - 20);
-                graph.fillText(reason, screenWidth / 2, screenHeight / 2 + 20);
+            
+                //graph.fillText('You were kicked for reason:', screenWidth / 2, screenHeight / 2 - 20);//
+                //graph.fillText(reason, screenWidth / 2, screenHeight / 2 + 20);//
             }
             else {
-                graph.fillText('You were kicked!', screenWidth / 2, screenHeight / 2);
+                graph.fillText('You were kicked , stop hacking !', screenWidth / 2, screenHeight / 2);
             }
         }
         else {
