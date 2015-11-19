@@ -524,6 +524,7 @@ function setupSocket(socket) {
         debug('Game is started: ' + gameStart);
         chat.addSystemLine('Connected to the game!');
         chat.addSystemLine('Type <b>-help</b> for a list of commands');
+        chat.addSystemLine('Warning ! : do not create server evrey hour there a update it may be outdated :C');
         if (mobile) {
             document.getElementById('gameAreaWrapper').removeChild(document.getElementById('chatbox'));
         }
