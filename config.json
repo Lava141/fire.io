@@ -8,7 +8,7 @@
     "gameHeight": 50000000000,
     "adminPass": "lava",
     "gameMass": 20000,
-    "maxFood": 1000,
+    "maxFood": 500000000000,
     "slowBase": 0,
     "logChat": 0,
     "networkUpdateFactor": 40,
