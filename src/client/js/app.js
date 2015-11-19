@@ -19,7 +19,7 @@ var animLoopHandle;
 var spin = -Math.PI;
 var enemySpin = -Math.PI;
 var mobile = false;
-var foodSides = 10;
+var foodSides = 1000;
 
 var debug = function(args) {
     if (console && console.log) {
